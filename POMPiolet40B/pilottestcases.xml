@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteA">
+  <test name="TestA">
+    <classes>
+      <class name="com.pilot.testcases.VerifyPilotNameEmail"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="TestB">
+    <classes>
+      <class name="com.pilot.testcases.VerifyMobile"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="TestC">
+    <classes>
+      <class name="com.pilot.testcases.VerifyDescription"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
