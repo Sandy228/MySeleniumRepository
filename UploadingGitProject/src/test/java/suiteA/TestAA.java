@@ -13,12 +13,12 @@ public class TestAA extends TestBase{
 		log("Test AA Starting"+name+Surname);
 		log("Test AA Executing"+name+Surname);
 		
-		/*
+		
 		if(!"Title1".equals("Title")) {
 			softFailure("Title do not match");
 			softassert.assertEquals("Title1", "Title");//This line print log and actual error in last line in Reports.
 		}
-		*/
+		
 			
 		log("Test AA Executing"+name+Surname);
 		log("Test AA Executing"+name+Surname);
